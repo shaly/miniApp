@@ -1,0 +1,4 @@
+.map-show {
+  width:375px;
+  height: 1060rpx;
+}

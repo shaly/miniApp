@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/parking/parking",
+    "pages/phone/phone",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口"
+    }
+  },
+  "window": {
+    "pageOrientation": "auto",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7fb801",
+    "navigationBarTitleText": "芬芳酩酊",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/map/map",
+        "text": "地图"
+      },{
+        "pagePath": "pages/phone/phone",
+        "text": "手机"
+      },{
+        "pagePath": "pages/parking/parking",
+        "text": "书籍"
+      },{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<view>
+<map class="map-show" 
+   longitude="{{x}}" 
+  latitude="{{y}}">
+</map>
+{{x}}--{{y}}
+</view>

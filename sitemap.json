@@ -1,0 +1,19 @@
+
+{
+  "desc": "index页面允许被索引，其它页面不允许",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "pages/index/index"
+    },
+    {
+      "action": "allow",
+      "page": "pages/map/map"
+    },
+    {
+      "action": "disallow",
+      "page": "*"
+    }
+  ]
+  
+}

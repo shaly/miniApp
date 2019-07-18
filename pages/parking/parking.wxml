@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<view  >
+  {{books[1].name}}
+  <block  wx:for="{{books}}" wx:for-item="book">
+    <text class="log-item">
+     {{index + 1}}. {{book.name}} - {{book.price}} - {{book.count}}  
+     </text>
+     <image src="{{book.url}}" ></image>   
+  </block>
+</view>
+ <view wx:if="{{books[2].price > 80}}"> 贵 </view>
+<view wx:elif="{{book[2].price == 80}}"> 还好 </view>
+<view wx:else> 便宜 </view>
+<template  data="{{books}}">
+  {{item.name}} 
+</template>

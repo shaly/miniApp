@@ -1,0 +1,6 @@
+<text>{{safeArea}}</text>
+<block  wx:for="{{phoneInfo}}" >
+    <text class="log-item">
+     {{index + 1}}. {{item}}   
+     </text>
+  </block>
